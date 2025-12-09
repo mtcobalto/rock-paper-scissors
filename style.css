@@ -1,10 +1,22 @@
-body{
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
-/* CSS */
+div{
+  background-color: white;
+  padding: 20px 50px;
+}
+
+#button-container{
+  background-color: darkblue;
+  border-radius: 8px;
+  border: black solid 2px;
+  padding: 10px;
+}
+
 .button-29 {
   align-items: center;
   appearance: none;
